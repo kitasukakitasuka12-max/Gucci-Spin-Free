@@ -6,7 +6,7 @@ export interface Segment {
 }
 
 // REPLACE THIS WITH YOUR ACTUAL WHATSAPP NUMBER (International format without +)
-export const WA_NUMBER = "6281234567890"; 
+export const WA_NUMBER = "6281325620735"; 
 
 export const WHEEL_SEGMENTS: Segment[] = [
   { label: "Rp10.000", color: "#ef4444", value: "Rp 10.000", textColor: "#ffffff" }, // Red
