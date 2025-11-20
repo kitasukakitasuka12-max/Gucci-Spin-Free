@@ -3,20 +3,28 @@ export interface Segment {
   color: string;
   value: string; // The text sent to WA
   textColor: string;
+  isZonk?: boolean;
 }
 
-// REPLACE THIS WITH YOUR ACTUAL WHATSAPP NUMBER (International format without +)
+// GANTI NOMOR WA DI SINI (Format internasional tanpa +)
+// Contoh: 6281234567890
 export const WA_NUMBER = "6281325620735"; 
 
+// Gucci Colors: 
+// Dark Green: #115740
+// Red: #db1f26
+// Gold: #c5a059
+// Black/Dark Grey: #1f2937
+
 export const WHEEL_SEGMENTS: Segment[] = [
-  { label: "Rp10.000", color: "#ef4444", value: "Rp 10.000", textColor: "#ffffff" }, // Red
-  { label: "Rp20.000", color: "#f97316", value: "Rp 20.000", textColor: "#ffffff" }, // Orange
-  { label: "Rp50.000", color: "#eab308", value: "Rp 50.000", textColor: "#ffffff" }, // Yellow
-  { label: "Rp75.000", color: "#84cc16", value: "Rp 75.000", textColor: "#ffffff" }, // Lime
-  { label: "Rp100.000", color: "#22c55e", value: "Rp 100.000", textColor: "#ffffff" }, // Green
-  { label: "Rp150.000", color: "#3b82f6", value: "Rp 150.000", textColor: "#ffffff" }, // Blue
-  { label: "Rp200.000", color: "#a855f7", value: "Rp 200.000", textColor: "#ffffff" }, // Purple
-  { label: "ZONK", color: "#64748b", value: "Hadiah Hiburan", textColor: "#ffffff" }, // Slate
+  { label: "IPHONE 15", color: "#c5a059", value: "iPhone 15 Pro Max", textColor: "#ffffff" }, // Gold
+  { label: "Rp 50.000", color: "#115740", value: "Uang Tunai Rp 50.000", textColor: "#ffffff" }, // Green
+  { label: "ZONK", color: "#374151", value: "ZONK (Coba Lagi)", textColor: "#ffffff", isZonk: true }, // Dark Grey
+  { label: "Rp 100.000", color: "#db1f26", value: "Uang Tunai Rp 100.000", textColor: "#ffffff" }, // Red
+  { label: "EMAS 1g", color: "#c5a059", value: "Logam Mulia 1 Gram", textColor: "#ffffff" }, // Gold
+  { label: "Rp 20.000", color: "#115740", value: "Uang Tunai Rp 20.000", textColor: "#ffffff" }, // Green
+  { label: "ZONK", color: "#374151", value: "ZONK (Coba Lagi)", textColor: "#ffffff", isZonk: true }, // Dark Grey
+  { label: "Rp 2 JUTA", color: "#db1f26", value: "Jackpot Rp 2.000.000", textColor: "#ffffff" }, // Red
 ];
 
-export const STORAGE_KEY = "gucci_lucky_spin_status_v1";
+export const STORAGE_KEY = "gucci_event_spin_v2";
