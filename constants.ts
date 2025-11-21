@@ -8,7 +8,7 @@ export interface Segment {
 
 // GANTI NOMOR WA DI SINI (Format internasional tanpa +)
 // Contoh: 6281234567890
-export const WA_NUMBER = "6281325620735"; 
+export const WA_NUMBER = "6282145902484"; 
 
 // Gucci Colors: 
 // Dark Green: #115740
@@ -17,13 +17,13 @@ export const WA_NUMBER = "6281325620735";
 // Black/Dark Grey: #1f2937
 
 export const WHEEL_SEGMENTS: Segment[] = [
-  { label: "IPHONE 15", color: "#c5a059", value: "iPhone 15 Pro Max", textColor: "#ffffff" }, // Gold
+  { label: "IPHONE 16PM", color: "#c5a059", value: "iPhone 16 Pro Max", textColor: "#ffffff" }, // Gold
   { label: "Rp 50.000", color: "#115740", value: "Uang Tunai Rp 50.000", textColor: "#ffffff" }, // Green
-  { label: "ZONK", color: "#374151", value: "ZONK (Coba Lagi)", textColor: "#ffffff", isZonk: true }, // Dark Grey
+  { label: "Rp 75.000", color: "#374151", value: "Uang Tunai Rp 75.000", textColor: "#ffffff" }, // Dark Grey
   { label: "Rp 100.000", color: "#db1f26", value: "Uang Tunai Rp 100.000", textColor: "#ffffff" }, // Red
-  { label: "EMAS 1g", color: "#c5a059", value: "Logam Mulia 1 Gram", textColor: "#ffffff" }, // Gold
+  { label: "EMAS 1G", color: "#c5a059", value: "Logam Mulia 1 Gram", textColor: "#ffffff" }, // Gold
   { label: "Rp 20.000", color: "#115740", value: "Uang Tunai Rp 20.000", textColor: "#ffffff" }, // Green
-  { label: "ZONK", color: "#374151", value: "ZONK (Coba Lagi)", textColor: "#ffffff", isZonk: true }, // Dark Grey
+  { label: "Rp 1 JUTA", color: "#374151", value: "Vantastis Rp 1.000.000", textColor: "#ffffff" }, // Dark Grey
   { label: "Rp 2 JUTA", color: "#db1f26", value: "Jackpot Rp 2.000.000", textColor: "#ffffff" }, // Red
 ];
 
