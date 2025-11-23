@@ -8,7 +8,7 @@ export interface Segment {
 
 // GANTI NOMOR WA DI SINI (Format internasional tanpa +)
 // Contoh: 6281234567890
-export const WA_NUMBER = "6282145902484"; 
+export const WA_NUMBER = "6282140976872"; 
 
 // Gucci Colors: 
 // Dark Green: #115740
